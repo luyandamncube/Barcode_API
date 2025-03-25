@@ -103,6 +103,17 @@ These instructions will guide you through setting up and running the project loc
 
    This will save the barcode image as `barcode.png` in your current directory.
 
+3. **Expose Local Server (Optional for Mobile Testing)**:
+   - Download ngrok from ngrok.com.
+   - Run ngrok to expose the local server:
+
+   ```bash
+   ngrok http 8000
+   ```
+It will give you a public URL like https://xxxxxx.ngrok.io, which you can use in your mobile app.If you need to test it on a mobile device (or outside your local network), you can use ngrok:
+
+   - Open your browser and navigate to URL e.g. `https://614c-196-39-71-129.ngrok-free.app/barcode?data=6001051003884`.
+   
 ---
 
 ## 🚀 Running the API in Production (Optional)
